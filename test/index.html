@@ -24,44 +24,50 @@
       <div>
         <section class="menu">
           <ul>
-            <li class="line">
+            <li>
               <a class="menu-cont" href="">
                 <img src="../img/Property.svg" alt="Имущество" />
                 <p>Имущество</p>
               </a>
+              <div class="create-line"></div>
             </li>
-            <li class="line">
+            <li>
               <a class="menu-cont" href="">
                 <img src="../img/inv.svg" alt="Инвентаризация" />
                 <p>Инвентаризация</p>
               </a>
+              <div class="create-line"></div>
             </li>
-            <li class="line">
+            <li>
               <a class="menu-cont" href="">
                 <img src="../img/Staff.svg" alt="Сотрудники" />
                 <p>Сотрудники</p>
               </a>
+              <div class="create-line"></div>
             </li>
-            <li class="line">
+            <li>
               <a class="menu-cont" href="">
                 <img src="../img/alert.svg" alt="Уведомления" />
                 <p>Уведомления</p>
               </a>
+              <div class="create-line"></div>
             </li>
-            <li class="line">
+            <li>
               <a class="menu-cont" href="">
                 <img src="../img/location.svg" alt="Локации" />
                 <p>Локации</p>
               </a>
+              <div class="create-line"></div>
             </li>
-            <li class="line">
+            <li>
               <a class="menu-cont" href="">
                 <img src="../img/setting.svg" alt="Настройки" />
                 <p>Настройки</p>
               </a>
+              <div class="create-line"></div>
             </li>
           </ul>
-          <a class="menu-cont" href=""
+          <a class="menu-cont indent" href=""
             ><img src="../img/Галочка.svg" alt="" />
             <p>Скрыть меню</p>
           </a>
@@ -71,6 +77,51 @@
       <div>
         <section>
           <h2>Локации / Все локации</h2>
+          <div class="lock-nav">
+            <div class="nav">
+              <button class="button button-lok">Все локации</button>
+              <button class="button button-imp">Импорт/Экспорт</button>
+              <button class="button button-set">Настройки</button>
+            </div>
+            <button class="button button-sinh">
+              <img src="../img/sinh.svg" alt="" />
+              <p>СИНХРОНИЗАЦИЯ</p>
+              <p class="time">(17.05.2024 15:23:21)</p>
+            </button>
+          </div>
+          <div class="lock-cont">
+            <button class="button button-genLoc">
+              <img src="../img/plus.svg" alt="" />
+              <p>СОЗДАТЬ ЛОКАЦИЮ</p>
+            </button>
+            <div class="input">
+              <input class="input-check" type="checkbox" />Поиск по точному
+              вхождению
+              <input class="input-search" type="search" placeholder="Поиск" />
+            </div>
+          </div>
+
+          <details>
+            <summary>Локация 1</summary>
+            <details>
+              <summary>Подотдел 1</summary>
+            </details>
+            <details>
+              <summary>Подотдел 2</summary>
+              <details>
+                <summary>Подподотдел 1</summary>
+              </details>
+            </details>
+            <details>
+              <summary>Подотдел 3</summary>
+            </details>
+          </details>
+          <details>
+            <summary>Локация 2</summary>
+          </details>
+          <details>
+            <summary>Локация 3</summary>
+          </details>
         </section>
       </div>
     </main>
